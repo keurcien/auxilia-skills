@@ -1,0 +1,12 @@
+version: 1
+image: "ghcr.io/keurcien/auxilia-runtime:1.0.0"
+interpreter:
+  language: python
+  version: "3.12.4"
+packages:
+  pandas: "2.2.1"
+  openpyxl: "3.1.2"
+  httpx: "0.28.1"
+runtime_installs: false
+egress: none
+egress_allowlist: []
