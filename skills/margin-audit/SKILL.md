@@ -25,3 +25,10 @@ from the raw export rather than trusted from the dashboard.
    flagging anything.
 5. Report the operations below target, worst first, with the recomputed
    margin next to the reported one.
+
+## Testing without a real export
+
+`python scripts/fake_data.py fake.csv` writes a synthetic export that
+`margins.py` reads directly. Add `--raw` to get currency formatted like a real
+export (`12,50€`) so the file has to go through `clean.py` first. Four of the
+twelve generated operations sit below their category target.
