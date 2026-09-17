@@ -1,6 +1,6 @@
 ---
 name: kyc-check
-description: Run the know-your-customer checklist on a new brand before its first operation. Use when onboarding a brand or when someone asks whether a brand has been vetted.
+description: Run the know-your-customer checklist on a new brand before its first operation. Use when onboarding a brand, before a first payout, or when someone asks whether a brand has been vetted.
 ---
 
 # KYC check
@@ -18,3 +18,4 @@ brand has been vetted.
 3. Verify the bank account holder matches the legal entity.
 4. Record the three checks and their outcome in one short table.
 5. If any check fails, stop and say which one — do not continue onboarding.
+6. Note the date of the check; it expires after twelve months.
